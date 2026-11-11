@@ -18,8 +18,11 @@
 .filters button,.see-more{pointer-events:auto}
 .reveal-card,[data-reveal]{opacity:0;transform:translateY(28px);transition:opacity .7s ease,transform .7s cubic-bezier(.2,.7,.2,1)}.reveal-card.is-visible,[data-reveal].is-visible{opacity:1;transform:none}.reveal-card:nth-child(2){transition-delay:.08s}.reveal-card:nth-child(3){transition-delay:.16s}.reveal-card:nth-child(4){transition-delay:.24s}.reveal-card:nth-child(5){transition-delay:.32s}@media(prefers-reduced-motion:reduce){.reveal-card,[data-reveal]{opacity:1;transform:none;transition:none}}
 .pt .case-link{display:inline;border-bottom:1px solid #111;margin-left:7px;font:600 .68rem "Josefin Sans";white-space:nowrap}.stack-divider{padding-left:4px;color:#777}
-.jp{font-family:"Stick","Hiragino Sans","Noto Sans JP",sans-serif;font-weight:400;font-size:48px;line-height:1.1;letter-spacing:.04em}
+.jp{font-family:"Stick","Hiragino Sans","Noto Sans JP",sans-serif;font-weight:700;font-size:64px;line-height:1.05;letter-spacing:.03em}
 .hero{position:static;background:var(--navy)}
 .hero::before{display:none}
-.hero-t{display:block;min-height:0;padding:50px 0}
-@media(max-width:820px){.jp{font-size:48px}.hero-t{padding:40px 0 60px}}
+.hero-t{display:block;min-height:0;padding:30px 0}
+@media(max-width:820px){.jp{font-size:54px}.hero-t{padding:30px 0}}
+.modal-backdrop{overflow-y:auto;align-items:center}.modal{max-height:calc(100svh - 40px);overflow-y:auto;overscroll-behavior:contain;-webkit-overflow-scrolling:touch}
+@media(max-width:820px){.modal-backdrop{padding:16px;align-items:flex-start}.modal{width:100%;max-height:calc(100svh - 32px);margin-top:8px;padding:28px 22px}.modal h2{font-size:2rem}}
+@media(max-width:820px){.edu-row .ec.now{order:-1}.edu-row .ec:nth-child(2){order:1}.edu-row .ec:nth-child(1){order:2}}

@@ -21,7 +21,7 @@ const projects: Project[] = [
     year: "2026",
     title: "Home Furniture Business System: Design Request and BoQ Management",
     description:
-      "An Odoo proof of concept for a home-furniture business. The custom module connects BoQ lines to Sales Orders and Inventory, creating a complete business flow from design request through order and stock operations.",
+      "An Odoo proof of concept for a home-furniture business. The custom module connects BoQ lines to Sales Orders, Invoice, and Inventory, creating a complete business flow from design request through order and stock operations.",
     role: "Odoo Technical Developer",
     tools: "Odoo · Python · PostgreSQL · XML · Sales · Inventory",
     color: "#111111",
@@ -233,23 +233,21 @@ export default function Home() {
           <Image
             className="hero-photo"
             src={profileImage}
-            alt="Vannabe standing in a white shirt and black trousers"
+            alt="Vanna NEANG standing in a white shirt and black trousers"
             width={640}
             height={1048}
             priority
           />
           <div className="hero-t">
             <p className="jp">こんにちは！</p>
-            <h1>This is Vannabe!</h1>
+            <h1>This is Vanna NEANG!</h1>
             <p>
-              Fifth-year Data Science student at the Institute of Technology of
-              Cambodia with hands-on experience in embedded systems, IoT,
-              real-time data pipelines and sensor integration. Passionate about
-              applying data-driven thinking to practical technical systems.
+              Fifth-year Data Science student and Odoo Solutions Architect at the Institute of Technology of Cambodia, specializing in bridging complex business operations with robust technical systems. 
+              Hands-on experience architecting custom enterprise resource planning workflows, real-time data pipelines, and IoT sensor integrations. 
+              Passionate about translating messy operational challenges into scalable, data-driven software solutions.
             </p>
             <p>
-              Data Science Student | IoT Developer | Embedded Systems | Data
-              Engineer | ML Engineer
+              Odoo Solutions Architect | ERP Systems & Workflow Automation | Data Engineer | UX/UI Design | IoT & Embedded Systems
             </p>
             <a className="btn" href="#about">
               Read More
@@ -284,8 +282,7 @@ export default function Home() {
                   <h3>Current chapter</h3>
                   <em>Data Science @ ITC</em>
                   <p>
-                    Fourth-year engineering student in the Department of Applied
-                    Mathematics and Statistics.
+                    Fifth-year engineering student in the Department of Applied Mathematics and Statistics.
                   </p>
                 </article>
                 <article className="sk reveal-card" data-reveal>
@@ -475,7 +472,8 @@ export default function Home() {
               <p>Dept. of Applied Mathematics and Statistics</p>
               <p>Engineering&apos;s Degree of Data Science</p>
               <p className="m">
-                4th year, GPA 3.0 / 4.0 Statistics, Machine Learning, Data
+                4th year, GPA 3.0 / 4.0<br /> 
+                Statistics, Machine Learning, Data
                 Analysis, Artificial Intelligence
               </p>
             </article>
