@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import { useEffect, useMemo, useState } from "react";
-import profileImage from "../assets/image.png";
+import profileImage from "../assets/profile2.png";
 
 type Project = {
   number: string;
