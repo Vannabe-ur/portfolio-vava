@@ -570,7 +570,7 @@ export default function Home() {
                 <li>
                   <b>Oct 2026</b>
                   <span>
-                    RUPP Odoo Pitching Competition<small>RUPP</small>
+                    RUPP Odoo Pitching Competition<small>RUPP, Cambodia</small>
                   </span>
                 </li>
                 <li>
@@ -578,16 +578,19 @@ export default function Home() {
                   <span>
                     International Conference on AI and Computing Innovation
                     (ICAICI 2026)
+                    <small>Kuala Lumpur, Malaysia</small>
                   </span>
                 </li>
                 <li>
                   <b>Apr 2025</b>
-                  <span>ASEAN Data Science Explorers Program 2025</span>
+                  <span>
+                    ASEAN Data Science Explorers Program 2025<small>Online, Cambodia</small>
+                  </span>
                 </li>
                 <li>
                   <b>Mar 2025</b>
                   <span>
-                    Next Gen Impact Competition<small>AUPP</small>
+                    Next Gen Impact Competition<small>AUPP, Cambodia</small>
                   </span>
                 </li>
               </ul>
