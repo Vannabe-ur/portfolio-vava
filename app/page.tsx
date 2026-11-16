@@ -473,8 +473,7 @@ export default function Home() {
               <p>Engineering&apos;s Degree of Data Science</p>
               <p className="m">
                 4th year, GPA 3.0 / 4.0<br /> 
-                Statistics, Machine Learning, Data
-                Analysis, Artificial Intelligence
+                Statistics, Machine Learning, Data Analysis, Artificial Intelligence, Internet of Things (IoT), Data Visualization, Database Management, and Software Development.
               </p>
             </article>
           </div>
@@ -502,12 +501,21 @@ export default function Home() {
               <span className="cnt">3 sessions</span>
               <ul>
                 <li>
+                  <b>14-16 Nov 2026</b>
+                  <span>
+                    FrancoTech Cambodia 2026
+                    <small>Koh Pich (Phnom Penh), Cambodia</small>
+                  </span>
+                </li>
+                <li>
                   <b>7–11 Jul 2025</b>
                   <span>
                     Management of Large Information Systems with Knowledge Graph
                     <small>
-                      Institute of Technology of Cambodia. Prof. Christophe
-                      Debruyne, Belgium
+                      Prof. Christophe Debruyne, Belgium
+                    </small>
+                    <small>
+                      ITC(Phnom Penh), Cambodia
                     </small>
                   </span>
                 </li>
@@ -519,6 +527,7 @@ export default function Home() {
                       Online training on visualisation tools. ASEAN Data
                       Scientist Team
                     </small>
+                    <small>Virtual(Phnom Penh), Cambodia</small>
                   </span>
                 </li>
                 <li>
@@ -526,8 +535,10 @@ export default function Home() {
                   <span>
                     Development of Agricultural Machinery (Japan Smart Farming)
                     <small>
-                      Institute of Technology of Cambodia. Prof. Dr. Mikio
-                      Umeda, Japan
+                      Prof. Dr. Mikio Umeda, Japan
+                    </small>
+                    <small>
+                      ITC(Phnom Penh), Cambodia
                     </small>
                   </span>
                 </li>
